@@ -14,7 +14,7 @@ public class Instructor {
 			con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","client1","1234");
 			
 			st = con.createStatement();
-			
+			String a = null;
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
